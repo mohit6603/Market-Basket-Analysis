@@ -1,0 +1,10 @@
+# Core data + mining stack (pinned for reproducibility / Streamlit Cloud deploy)
+pandas==2.3.3
+numpy==2.3.5
+mlxtend==0.25.0
+openpyxl==3.1.5      # read the raw .xlsx
+matplotlib==3.11.0   # EDA + notebook charts
+
+# App (Streamlit demo)
+streamlit==1.51.0
+networkx==3.5        # rule network graph

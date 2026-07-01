@@ -1,0 +1,23 @@
+# --- Raw / cached data (large; re-downloadable from UCI — see data/PROVENANCE.md) ---
+data/Online Retail.xlsx
+data/online_retail_raw.csv
+data/online_retail_clean.csv
+# NOTE: small precomputed artifacts the Streamlit app needs (e.g. rules table)
+# are committed deliberately and must NOT be added here.
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- OS / editor / local harness ---
+.DS_Store
+.vscode/
+.idea/
+.claude/
