@@ -1,10 +1,13 @@
-# Core data + mining stack (pinned for reproducibility / Streamlit Cloud deploy)
-pandas==2.3.3
-numpy==2.3.5
-mlxtend==0.25.0
-openpyxl==3.1.5      # read the raw .xlsx
-matplotlib==3.11.0   # EDA + notebook charts
+# Core data + mining stack.
+# Flexible lower bounds (not exact pins) so pip can resolve on Streamlit Cloud's
+# Python as well as locally — exact pins failed cloud install because some versions
+# (numpy 2.3.x, matplotlib 3.11) don't ship wheels for every Python minor version.
+pandas>=2.2
+numpy>=1.26
+mlxtend>=0.23
+openpyxl>=3.1     # read the raw .xlsx (notebook only; app doesn't need the raw data)
+matplotlib>=3.8   # EDA charts + app scatter/network figures
 
 # App (Streamlit demo)
-streamlit==1.51.0
-networkx==3.5        # rule network graph
+streamlit>=1.37
+networkx>=3.2     # rule network graph
