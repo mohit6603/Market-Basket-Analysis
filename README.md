@@ -9,8 +9,9 @@ Mining **actionable co-purchase rules** from ~500k real e-commerce transactions
 > **support, confidence, and lift**, meant to inform business decisions
 > (bundling, cross-sell, placement, inventory).
 
+**🔴 Live demo:** [mohit6603-market-basket-analysis.streamlit.app](https://mohit6603-market-basket-analysis-appstreamlit-app-6vskjs.streamlit.app/)
+
 <!-- TODO: add a demo GIF of the Streamlit app here, e.g. ![demo](docs/demo.gif) -->
-<!-- TODO: add the live app link after deploying, e.g. **Live app:** https://<your-app>.streamlit.app -->
 
 ---
 
